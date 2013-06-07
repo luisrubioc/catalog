@@ -1,0 +1,40 @@
+es:
+  activerecord:
+    attributes:
+      user:
+        password_digest: "Password"
+        
+  # Static pages
+  hello: "Hello world"
+  welcome: "Bienvenidos a la Catalog App"
+  home: "Inicio"
+  help: "Ayuda"
+  sign_in: "Entrar"
+  sign_up: "Registrarse"
+  sign_up_now: "¡Regístrate ahora!"
+  sign_out: "Salir"
+  about: "Acerca de"
+  about_us: "Sobre nosotros"
+  contact: "Contactar"
+  news: "Noticias"
+
+  # Users
+  users: "Usuarios"
+  all_users: "Todos los usuarios"
+  edit_user: "Editar usuario"
+
+  # Profile
+  profile: "Perfil"
+  update_profile: "Actualiza tu perfil"
+  view_my_profile: "ver mi perfil"
+  account: "Cuenta"
+  settings: "Configuración"
+
+  # Misc
+  delete: "borrar"
+  are_you_sure: "¿Estás seguro?"
+
+  # Pagination
+  will_paginate:
+    previous_label: "Anterior"
+    next_label: "Siguiente"

@@ -1,0 +1,43 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activerecord:
+    attributes:
+      user:
+        password_digest: "Password"
+
+  # Static pages
+  hello: "Hello world"
+  welcome: "Welcome to the Catalog App"
+  home: "Home"
+  help: "Help"
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  sign_up_now: "Sign up now!"
+  sign_out: "Sign out"
+  about: "About"
+  about_us: "About us"
+  contact: "Contact"
+  news: "News"
+
+  # Users
+  users: "Users"
+  all_users: "All users"
+  edit_user: "Edit user"
+
+  # Profile
+  profile: "Profile"
+  update_profile: "Update your profile"
+  view_my_profile: "view my profile"
+  account: "Account"
+  settings: "Settings"
+
+  # Misc
+  delete: "delete"
+  are_you_sure: "¿You sure?"
+
+  # Pagination
+  will_paginate:
+    previous_label: "Previous"
+    next_label: "Next"
