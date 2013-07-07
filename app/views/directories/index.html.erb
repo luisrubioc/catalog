@@ -1,0 +1,10 @@
+<% provide(:title, t(:directories) ) %>
+<h1><%= t :directories %></h1>
+
+<%= will_paginate %>
+
+<ul class="directories">
+  <%= render @directories %>
+</ul>
+
+<%= will_paginate %>

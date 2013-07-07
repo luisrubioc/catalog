@@ -9,4 +9,11 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :directory do
+  	name "Test directory"
+  	description "This is a description text for the test directory"
+  	user
+  end
+
 end

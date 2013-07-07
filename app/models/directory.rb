@@ -1,5 +1,5 @@
 class Directory < ActiveRecord::Base
-  attr_accessible :description, :name
+  attr_accessible :name, :description
   belongs_to :user
 
   validates :user_id, presence: true

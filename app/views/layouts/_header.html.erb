@@ -8,6 +8,7 @@
           <li><%= link_to t(:help), help_path %></li>
           <% if signed_in? %>
             <li><%= link_to t(:users), users_path %></li>
+            <li><%= link_to t(:directories), directories_path %></li>
             <li id="fat-menu" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <%= t :account %> <b class="caret"></b>
