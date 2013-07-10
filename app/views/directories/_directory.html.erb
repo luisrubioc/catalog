@@ -1,0 +1,5 @@
+<li>
+  <%= link_to directory.name, directory %>
+    | <%= link_to t(:delete), directory, method: :delete,
+                                  data: { confirm: t(:are_you_sure) } %>
+</li>

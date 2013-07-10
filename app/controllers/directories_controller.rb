@@ -2,22 +2,29 @@ class DirectoriesController < ApplicationController
   before_filter :signed_in_user, only: [:create, :destroy]
   before_filter :correct_user,   only: :destroy
 
+  def show
+    @directory = Directory.find(params[:id])
+  end
+
   def new
+    @directory = Directory.new
   end
 
   def create
     @directory = current_user.directories.build(params[:directory])
     if @directory.save
-      flash[:success] = "Directory created!"
-      redirect_to root_url
+      flash[:success] = t :directory_created
+      redirect_to @directory
     else
-      @feed_items = []
-      render 'static_pages/home'
+      render 'new'
     end
-  end
+  end  
 
   def index
   	@directories = Directory.paginate(page: params[:page])
+  end
+
+  def edit
   end
 
   def destroy

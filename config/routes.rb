@@ -2,7 +2,7 @@ Catalog::Application.routes.draw do
 
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
-  resources :directories, only: [:new, :index, :create, :destroy]
+  resources :directories
 
   root :to => 'static_pages#home'
 

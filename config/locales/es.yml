@@ -41,3 +41,5 @@ es:
 
   # Directories
   directories: "Directorios"
+  create_directory: "Crear"
+  directory_created: "¡Directorio creado!"

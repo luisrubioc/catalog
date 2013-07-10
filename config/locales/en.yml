@@ -41,3 +41,9 @@ en:
   will_paginate:
     previous_label: "Previous"
     next_label: "Next"
+
+  
+  # Directories
+  directories: "Directories"
+  create_directory: "Create"
+  directory_created: "Directory created!"
